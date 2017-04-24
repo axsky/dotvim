@@ -2,7 +2,7 @@
 ## Quickstart
 ```shell
 cd ~
-git clone git@github.com:axsky/dotvim.git ~/.vim
+git clone https://github.com/axsky/dotvim.git ~/.vim
 ln -s ~/.vim/vimrc ~/.vimrc
 cd ~/.vim
 git submodule update --init #--recursive
