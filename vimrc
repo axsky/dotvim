@@ -71,6 +71,9 @@ command Use UltiSnipsEdit
 
 "easymotion"{{{
 map <Leader> <Plug>(easymotion-prefix)
+nmap <Leader>j <Plug>(easymotion-overwin-line)
+nmap <Leader>k <Plug>(easymotion-overwin-line)
+nmap <Leader>w <Plug>(easymotion-overwin-w)
 nmap s <Plug>(easymotion-overwin-f)
 let g:EasyMotion_smartcase = 1
 let g:EasyMotion_use_upper = 1
