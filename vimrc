@@ -140,11 +140,6 @@ if has('win32')
     set guifont=Courier_New:h9:cANSI
 endif
 
-if has('gui_running')
-    "Max gvim window"
-    set lines=999 columns=999
-endif
-
 "visual search"{{{
 xnoremap * :<C-u>call <SID>VSetSearch()<CR>/<C-R>=@/<CR><CR>
 xnoremap # :<C-u>call <SID>VSetSearch()<CR>?<C-R>=@/<CR><CR>
